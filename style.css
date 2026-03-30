@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 196, 0) ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    max-width: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100%;
+    max-height: 200px;
+    border-radius: 10px ;
+    flex-direction: column;
+    
+}
+#increment-btn{
+    padding: 5px 10px 5px;
+    background-color: rgb(51, 255, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius : 4px;
+    transition: 0.5s;
+}
+#decrement-btn{
+    padding: 6px 12px 6px;
+    background-color: rgb(226, 43, 43);
+    color: white;
+    border: none;
+    border-radius : 4px;
+    transition: 0.5s;
+
+}
+.number-box{
+    background-color: rgb(255, 255, 255);
+    padding: 6px 12px 6px;
+    border-width: 2px ;
+}
+#increment-btn:hover{
+    background-color: rgb(49, 177, 53);
+
+}
+#decrement-btn:hover{
+    background-color: rgb(111, 21, 21);;
+    
+}
+#inc-dec-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+#restart-btn{
+    padding: 5px 30px 5px;
+    background-color: rgb(251, 255, 0);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    transition: 0.6s;
+}
+#restart-btn:hover{
+    background-color: rgb(128, 130, 17);
+}
